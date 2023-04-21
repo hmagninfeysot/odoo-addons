@@ -1,0 +1,12 @@
+<odoo>
+    <record id="view_hr_leave_type_negative" model="ir.ui.view">
+        <field name="name">hr.leave.type.form.view_hr_leave_type_negative</field>
+        <field name="model">hr.leave.type</field>
+        <field name="inherit_id" ref="hr_holidays.edit_holiday_status_form"/>
+        <field name="arch" type="xml">
+           <group name="description" position="inside">
+                <field name="negative_allocation"/>
+           </group>
+        </field>
+    </record>
+</odoo>
